@@ -2,6 +2,14 @@
 Yum - an automatic updater and installer for rpm-based systems
 -------------------------------------
 
+Modified to include a setup.py and MANIFEST.in for building a
+standard python package that you can easily install inside of
+a virtual environment or another python installation outside
+of the base python installation.
+
+python setup.py sdist
+
+
 Included programs:
 /usr/bin/yum		Main program
 
